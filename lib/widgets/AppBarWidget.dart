@@ -10,7 +10,7 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
       child: AppBar(
         centerTitle: true,
         leading: ClipRRect(
-          borderRadius: BorderRadius.circular(20.0), //add border radius
+          borderRadius: BorderRadius.circular(5.0), //add border radius
           child: Image.asset(
             'assets/icons/logo.png',
             fit:BoxFit.cover,
